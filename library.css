@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    background-color: #DBEAFE;
+}
+
+/* Navigation */
+
+.navigation {
+    padding: 16px;
+    background-color: #3B82F6;
+    text-align: right;
+}
+
+.nav {
+    padding-right: 10px;
+    
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Social-Media */
+.social {
+    margin-left: 40px;
+    
+}
+.media{
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* home page image */
+.image {
+    /* text-align: center; */
+    margin-left:350px ;
+}
+
+.image>img {
+    width: 800px;
+    height: 700px;
+}
+.imageNav{
+    width: 25x;
+    height: 25px;
+  float: left;
+  margin-top: 2px;
+}
+.name{
+    font-weight: bolder;
+    float: left;
+    margin-left: 5px;
+    font-size: 23px;
+}
+
+
+/* Introduction */
+
+.intro {
+    text-align: center;
+    max-width: 900px;
+    margin-left: 200px;
+}
+
+.intro>h1 {
+    color: #9CA3AF;
+}
+
+.intro>p {
+    font-size: 23px;
+}
+
+.homer {
+    padding: 1rem;
+    background-color: #47857F;
+    margin-left: 200px;
+    width: 140px;
+    text-decoration: none;
+    font-size: 23px;
+    color: #111827;
+    border-radius: 20px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #60A5FA;
+    font-size: 23px;
+    bottom: 0;
+}
+
+.foot {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    bottom: 0;
+    
+}
+
+.footDev {
+    text-align: right;
+}
+
+
+@media screen and (max-width:768px){
+
+    .image {
+        /* text-align: center; */
+        margin-left:10px ;
+    }
+    .image>img {
+        width: 400px;
+        height: 400px;
+    }
+    .intro {
+        text-align: center;
+        max-width: 900px;
+        margin-left: 10px;
+    }
+    .homer {
+        padding: 1rem;
+        background-color: #47857F;
+        margin-left: 10px;
+        text-decoration: none;
+        font-size: 23px;
+        color: #111827;
+        border-radius: 20px;
+    }
+    .social {
+        margin-left: 10px;
+        
+    }
+    .imglogo{
+        float: left;
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .name{
+        font-weight: bolder;
+        float: left;
+        margin-left: 4px;
+        font-size: 18px;
+    }
+
+}
