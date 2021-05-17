@@ -1,0 +1,52 @@
+/* Cards CSS */
+.cart1 {
+
+    display: grid;
+    /* border: 1px solid black; */
+    position: relative;
+    margin-left: 50px;
+    margin: 1rem;
+
+
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+    color: black;
+
+
+}
+
+.parent {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    bottom: 0px;
+    right: 120px;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+}
+
+.border {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.close {
+    position: absolute;
+    top: 40px;
+    right: 0px;
+}
+
+.textOverlay {
+
+    width: 100px;
+    background-color: orange;
+    position: absolute;
+    top: 22px;
+}

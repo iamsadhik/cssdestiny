@@ -1,0 +1,24 @@
+/* Notify */
+.notify{
+    border-left:4px solid black;
+    margin:1rem;
+    padding:1rem;
+    background:#D1D5DB;
+    width:500px;
+    font-size:20px;
+  }
+  
+  .loading{
+    border-color:#FBBF24;
+    margin-left: 140px;
+  }
+  
+  .success{
+    border-color:green;
+    margin-left: 140px;
+  }
+  
+  .failure{
+    border-color:red;
+    margin-left: 140px;
+  }

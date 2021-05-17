@@ -1,0 +1,25 @@
+/* Simplified-Grid CSS*/
+.gridContainer {
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+    grid-column-gap: 25px;
+    width: 400px;
+
+
+}
+
+.gridContainer>div {
+    border: 1px solid black;
+    text-align: center;
+    padding: auto;
+
+
+}
+
+.gridContainer>span {
+    border: 1px solid black;
+    text-align: center;
+    padding: auto;
+
+
+}

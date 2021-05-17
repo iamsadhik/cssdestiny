@@ -1,0 +1,45 @@
+/* List CSS */
+.list {
+    list-style: none;
+    font-weight: bolder;
+    /* text-align: left; */
+}
+
+.fullList {
+    display: flex;
+}
+
+.list>li {
+    padding: 1rem;
+}
+
+.mains {
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    background-color: #34D399;
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+
+}
+
+.notification {
+    background-color: #A7F3D0;
+    margin-bottom: 12px;
+
+
+}
+
+.main>h1 {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.notification>p {
+    padding-left: 20px;
+}
+
+.notification>h3 {
+    padding-left: 14px;
+}

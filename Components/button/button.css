@@ -1,0 +1,55 @@
+/* Button CSS */
+:root {
+    --cart: #4338CA;
+    --cart-hover: #818CF8;
+    --buy-now: #D97706;
+    --checkout: #047857;
+    --buy-hover: #FDE68A;
+    --checkout-hover: #A7F3D0;
+    --icons: #DB2777;
+    --icons-hover: #F9A8D4;
+}
+
+.butn {
+    padding: 0.5rem 1rem;
+    margin: 9px;
+    border-radius: 1rem;
+    text-decoration: none;
+    border: none;
+}
+
+.button-primary {
+
+    background-color: var(--cart);
+}
+
+.button-primary:hover {
+    background-color: var(--cart-hover);
+}
+
+.button-buy {
+    background-color: var(--buy-now);
+}
+
+.button-checkout {
+    background-color: var(--checkout);
+}
+
+.button-buy:hover {
+    background-color: var(--buy-hover);
+}
+
+.button-checkout:hover {
+    background-color: var(--checkout-hover);
+}
+
+.icons {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: var(--icons);
+}
+
+.icons:hover {
+    background-color: var(--icons-hover);
+}
