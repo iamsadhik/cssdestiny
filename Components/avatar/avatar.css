@@ -1,0 +1,13 @@
+.avatar {
+
+    height: 100px;
+    border-radius: 50%;
+    width: 100px;
+    padding: 0.5rem;
+}
+
+.avatar:hover {
+    transition: 3s;
+    width: 140px;
+    height: 140px;
+}

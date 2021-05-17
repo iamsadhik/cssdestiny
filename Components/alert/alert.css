@@ -1,0 +1,38 @@
+/* Alert CSS */
+
+.alert {
+    font-size: large;
+    width: 50%;
+    padding: 1rem;
+    color: white;
+    margin: 1rem;
+    background-color: #991B1B;
+}
+
+.Info {
+    margin: 1rem;
+    background-color: blue;
+}
+
+.Success {
+    margin: 1rem;
+    background-color: green;
+}
+
+.Security {
+    margin: 1rem;
+    background-color: greenyellow;
+}
+
+.closeBtn {
+    font-size: 27px;
+    float: right;
+    cursor: pointer;
+    line-height: 20px;
+
+}
+
+.closeBtn:hover {
+    color: black;
+    transition: 2s;
+}

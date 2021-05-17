@@ -1,0 +1,9 @@
+/* Rating CSS */
+.rating-star {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.rating-star>span:hover {
+    color: gold;
+}

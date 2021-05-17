@@ -1,0 +1,14 @@
+/* Responsive Images CSS */
+.responsive {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: 40px;
+}
+
+.responsive1 {
+    border-radius: 50%;
+    width: 40%;
+    height: auto;
+
+}
